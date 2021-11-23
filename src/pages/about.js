@@ -2,9 +2,10 @@ import React from 'react';
 const About = () =>{
   return (
     <div>
-        <h3>O nás</h3>
         <div>
-            <img src="./assets/table.png"/>
+            <img 
+            src="./assets/table.png" 
+            alt="kancelářský stůl"/>
             <div className="grid">
                 <p>
                     Jsme moderní a dynamická společnost, která svým zákazníkům nabízí nadstandardní kvalitu, 

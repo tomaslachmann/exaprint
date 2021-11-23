@@ -3,9 +3,14 @@ import {  Link } from "react-router-dom";
 
 const Navbar= () =>{
   return (
-    <div>
+    <nav>
         <li>
-            <Link to="/"><img src="assets/logo-01.png"/></Link>
+            <Link to="/">
+                <img 
+                 src="assets/logo-01.png"
+                 alt="logo Exa print"
+                 width={160} />
+            </Link>
         </li>
         <li>
             <Link to="/">O nás</Link>
@@ -22,7 +27,7 @@ const Navbar= () =>{
         <li>
             <Link to="/kontakt">Kontakt</Link>
         </li>
-    </div>
+    </nav>
   );
 }
 
