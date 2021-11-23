@@ -1,5 +1,7 @@
 :root{
   --darkgrey: #262626;
+  --grey:#3C3C3C;
+  --green:#ABD037;
 }
 
 body {
@@ -15,4 +17,28 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bg-grey{
+  background-color:var(--grey);
+}
+
+.bg-green{
+  background-color:var(--green);
+}
+
+.color-green{
+  color:var(--green);
+}
+
+.bold{
+  font-weight: bold;
+}
+
+div{
+  overflow:hidden;
+}
+
+img{
+  max-width:100%;
 }

@@ -4,7 +4,9 @@ const Print = () =>{
     <div>
       <h3>Tisk</h3>
       <div className="grid">
-            <img src="./assets/obrazek-03.png"/>
+            <img 
+            src="./assets/obrazek-03.png"
+            alt="barevné spektrum RGB"/>
             <div className="grid">
                 <h5>Archový tisk</h5>
                 <p>

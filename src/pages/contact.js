@@ -1,32 +1,92 @@
-import React from 'react';
+
+import {Link} from 'react-router-dom';
+import { React } from 'react';
+import { Form } from '../components/form';
+
 const Contact = () =>{
-  return (
-    <div>
-      <h3>Kontakt</h3>
-      <div className="grid">
-      <img src="./assets/table.png"/>
-            <div className="grid">
-                <p>
-                    Jsme moderní a dynamická společnost, která svým zákazníkům nabízí nadstandardní kvalitu, 
-                    rychlost a profesionalitu. Jsme připraveni vyhovět specifickým požadavkům a splnit každé přání. 
-                    Naše společnost poskytuje komplexní služby v oblasti rotačního i archového ofsetového tisku včetně 
-                    veškerého dokončujícího zpracování.
-                </p>
-                <p>
-                    Naše práce se vyznačuje vysoce kvalitním zpracováním tiskovin, rychlou výrobou a to vše za velice 
-                    přijatelné ceny. Hlavním produktem firmy jsou celobarevné katalogy, časopisy, skládané i klasické letáky, 
-                    kalendáře a další reklamní tiskoviny v širokém rozmezí nákladů. Konečnými výrobky jsou tiskoviny 
-                    složené nebo kontinuálně řezané, šité nebo lepené.
-                </p>
-                <p>
-                    Náš tiskový provoz vlastní nejmodernější technologie, díky nimž umíme velmi dobře konkurovat, a které nám umožňují 
-                    dodat zakázku v nejvyšší možné kvalitě v nejkratším možném termínu. 
-                    Naším prvořadým cílem je absolutní spokojenost zákazníka, čehož se snažíme dosáhnout nejen 
-                    důrazem na co nejnižší ceny, ale také seriozním jednáním.
-                </p>
+    
+    return (
+        <div>
+            <div className="grid-small">
+                <img 
+                src="./assets/obrazek-05.png" 
+                alt="mapa České republiky"/>
+                <div>
+                    <ul className="bold">
+                        <li>
+                            Exa Print - Design s.r.o.
+                        </li>
+                        <li>
+                            Střední Novosadská 4
+                        </li>
+                        <li>
+                            779 00 Olomouc
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="tel:+420 585 751 176">tel.: +420 585 751 176</a>
+                        </li>
+                        <li>
+                            <a href="tel:+420 775 705 170">mobil: +420 775 705 170</a>
+                        </li>
+                        <li>
+                            <a href="mailto:sekretariat@exaprint.cz">sekretariat@exaprint.cz</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <Link to="/" >www.exaprint.cz</Link>
+                        </li>
+                        <li>
+                            IČ: 278 46 776
+                        </li>
+                        <li>
+                            DIČ: CZ 278 46 776
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li className="bold">
+                            Obchod
+                        </li>
+                        <li>
+                            <a href="tel:+420 775 705 171">tel.: +420 775 705 171</a>
+                        </li>
+                        <li>
+                            <a href="mailto:obchod@exaprint.cz">obchod@exaprint.cz</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li className="bold">
+                            Grafické studio
+                        </li>
+                        <li>
+                            <a href="tel:+420 775 705 173">tel.: +420 775 705 173</a>
+                        </li>
+                        <li>
+                            <a href="mailto:studio@exaprint.cz">studio@exaprint.cz</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li className="bold">
+                            Výroba
+                        </li>
+                        <li>
+                            <a href="tel:+420 775 705 172">tel.: +420 775 705 172</a>
+                        </li>
+                        <li>
+                            <a href="mailto:vyroba@exaprint.cz">vyroba@exaprint.cz</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-      </div>
-    </div>
-  );
+            <div>
+                <h1>Napište nám</h1>
+                <Form />
+            </div>
+        </div>
+    );
 }
 export default Contact;

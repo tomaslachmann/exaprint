@@ -4,7 +4,9 @@ const Studio = () =>{
     <div>
         <h3>Studio</h3>
         <div className="grid">
-            <img src="./assets/obrazek-01.png"/>
+            <img 
+            src="./assets/obrazek-01.png"
+            alt="List papíru" />
             <div className="grid">
                 <p>
                     Naše grafické studio zajišťuje veškeré grafické práce včetně úpravy dat či zhotovení nových grafických 
@@ -18,10 +20,18 @@ const Studio = () =>{
                     specifickým požadavkům.
                 </p>
                 <div className="image-grid">
-                    <img src="assets/Ps.png" />
-                    <img src="assets/Ai.png" />
-                    <img src="assets/Id.png" />
-                    <img src="assets/Acrobat.png" />
+                    <img 
+                    src="assets/Ps.png"
+                    alt="logo Photoshop" />
+                    <img 
+                    src="assets/Ai.png"
+                    alt="logo Illustrator" />
+                    <img 
+                    src="assets/Id.png"
+                    alt="logo Id" />
+                    <img 
+                    src="assets/Acrobat.png"
+                    alt="logo Acrobat" />
                 </div>
             </div>
         </div>
