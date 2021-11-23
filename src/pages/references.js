@@ -2,13 +2,13 @@ import React from 'react';
 const References = () =>{
   return (
     <div>
-        <div className="grid">
+        <div className="row-grid">
             <div className="reference-card">
                 <div className="reference-card-content">
                     <img 
                     src="assets/obrazek-11.png" 
                     alt="kalendář" />
-                    <h5>kalendář</h5>
+                    <h3>kalendář</h3>
                 </div>
                 <img 
                 src="assets/kalendar.jpg"
@@ -22,7 +22,7 @@ const References = () =>{
                     <img 
                     src="assets/obrazek-08.png"
                     alt="katalog" />
-                    <h5>katalog</h5>
+                    <h3>katalog</h3>
                 </div>
             </div>
         </div>

@@ -1,12 +1,11 @@
 import React from 'react';
 const About = () =>{
   return (
-    <div>
-        <div>
+        <div className="grid margin-bottom-15">
             <img 
             src="./assets/table.png" 
             alt="kancelářský stůl"/>
-            <div className="grid">
+            <div>
                 <p>
                     Jsme moderní a dynamická společnost, která svým zákazníkům nabízí nadstandardní kvalitu, 
                     rychlost a profesionalitu. Jsme připraveni vyhovět specifickým požadavkům a splnit každé přání. 
@@ -27,7 +26,6 @@ const About = () =>{
                 </p>
             </div>
         </div>
-    </div>
   );
 }
 export default About;
