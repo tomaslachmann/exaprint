@@ -2,6 +2,7 @@
   --darkgrey: #262626;
   --grey:#3C3C3C;
   --green:#ABD037;
+  --lightgrey:#575756;
 }
 
 body {
@@ -41,4 +42,50 @@ div{
 
 img{
   max-width:100%;
+}
+
+.width-100{
+  width:100%;
+}
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:2.5rem;
+}
+
+.container{
+  box-sizing: border-box;
+  padding:3em 5rem;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.margin-0{
+  margin:0;
+}
+
+.margin-bottom-15{
+  margin-bottom:15rem;
+}
+
+.margin-bottom-10{
+  margin-bottom:10rem;
+}
+
+.image-grid{
+  display:flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding:0 2rem;
+  margin-top:5rem;
+}
+
+h5{
+  color:white;
+  font-size:1.17em;
+  margin:0;
+  padding:0;
 }

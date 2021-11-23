@@ -7,10 +7,12 @@ const Contact = () =>{
     
     return (
         <div>
-            <div className="grid-small">
+            <div className="grid margin-bottom-10">
+                
                 <img 
                 src="./assets/obrazek-05.png" 
                 alt="mapa České republiky"/>
+                <div className="grid-small">
                 <div>
                     <ul className="bold">
                         <li>
@@ -82,7 +84,8 @@ const Contact = () =>{
                     </ul>
                 </div>
             </div>
-            <div>
+            </div>
+            <div className="contact-form">
                 <h1>Napište nám</h1>
                 <Form />
             </div>

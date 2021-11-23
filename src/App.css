@@ -10,7 +10,7 @@
 #root{
   width:1120px;
   margin:auto;
-  margin-top:5rem;
+  margin-top:3rem;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -80,7 +80,7 @@
   content: "";
   height: 100px;
   position: absolute;
-  background: #FFFFFF;
+  background: var(--grey);
   transform: rotate(-45deg);
 }
 .success-checkmark .check-icon .icon-line {
@@ -124,7 +124,10 @@
   height: 85px;
   position: absolute;
   transform: rotate(-45deg);
-  background-color: #FFFFFF;
+  background-color: var(--grey);
+}
+.success-checkmark{
+  overflow:visible;
 }
 
 @keyframes rotate-circle {
@@ -201,4 +204,120 @@ nav{
   display:flex;
   width:100%;
   flex-wrap:Wrap;
+  color:white;
+  font-weight:700;
+  font-size:1.9em;
+  justify-content: space-between;
+  align-items:flex-end;
+  box-sizing: border-box;
+  padding:0 2em;
+  margin-bottom: 2rem;
+}
+
+nav li.active{
+  color:var(--green);
+}
+
+nav li:hover{
+  color:var(--green);
+}
+
+.grid p {
+  color:white;
+  font-size:1.17em;
+}
+
+.tisk p{
+  margin-bottom:1.5em;
+}
+
+.row-grid{
+  display:grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap:2.5rem;
+}
+
+.reference-card{
+  display:grid;
+  grid-template-columns: 35% 1fr;
+}
+
+.row-grid .reference-card:last-of-type{
+  grid-template-columns: 1fr 35%;
+}
+
+.reference-card-content{
+  background:var(--lightgrey);
+  box-sizing: border-box;
+  padding:2.5em;
+}
+
+.reference-card-content h3{
+  letter-spacing: .6em;
+  color:white;
+  font-weight: 700;
+  font-size: 1.9em;
+  text-align: center;
+}
+
+.grid-small{
+  display:flex;
+  justify-content: space-between;
+  color:white;
+  font-size:1.17em;
+}
+
+.grid-small ul{
+  padding-left:0;
+}
+
+.contact-form h1{
+  text-align: center;
+  color:white;
+}
+
+.form{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+}
+.form input{
+  flex-basis:47%;
+  background:var(--lightgrey);
+  border:solid 1px white;
+  outline:white;
+  color:white;
+  font-size: 1.17em;
+  padding:.5em;
+  margin-bottom:1rem;
+}
+
+.form input:nth-of-type(3){
+  flex-basis: 100%;
+}
+
+.form textarea{
+  flex-basis: 100%;
+  resize: none;
+  background:var(--lightgrey);
+  border:solid 1px white;
+  outline:white;
+  color:white;
+  font-size: 1.17em;
+  padding:.5em;
+  margin-bottom:1rem;
+  height: 10rem;
+}
+
+.form button{
+  flex-basis:100%;
+  font-size: 1.17em;
+  padding:.5em;
+  background:var(--green);
+  border: solid 1px white;
+  cursor:pointer;
+}
+
+footer{
+  padding:1rem;
 }

@@ -2,12 +2,11 @@ import React from 'react';
 const Studio = () =>{
   return (
     <div>
-        <h3>Studio</h3>
-        <div className="grid">
+        <div className="grid margin-bottom-10">
             <img 
             src="./assets/obrazek-01.png"
             alt="List papíru" />
-            <div className="grid">
+            <div>
                 <p>
                     Naše grafické studio zajišťuje veškeré grafické práce včetně úpravy dat či zhotovení nových grafických 
                     návrhů podle přání zákazníka. Naši grafici se ve své práci realizují a každou zakázku berou jako výzvu, 
